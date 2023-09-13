@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.container{
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    padding: 26px;
+    border-radius: 8px;
+}
+.container:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+}
+
+.container header{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+.container form{
+    margin-top: 30px;
+}
+.container .in-box{
+    width: 100%;
+    margin-top: 20px;
+}
+.form .in-box input{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-top: 8px;
+}
+.form .col{
+    display: flex;
+    column-gap: 10px;
+}
+
+.container .gender input[type="radio"] {
+    margin-right: 5px;  
+    padding: 10px;
+}
+
+
+.container .gender label {
+    display: inline-block;
+    margin-right: 15px; 
+    cursor: pointer;
+    margin-top: 8px;
+}
+.container .gender {
+    margin-top: 20px; 
+    
+}
+.container .gender .ge{
+    display: block;
+    margin-top: 10px;
+
+}
+.form select {
+    height: 40px;
+    width: 100%;
+    font-size: 1rem;
+    color: #707070;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 8px;
+    cursor: pointer;
+    background-color: #fff; 
+}
+
+.form select:hover {
+    border-color: #555; 
+}
+.form .col1{
+    display: flex;
+    column-gap: 15px;
+    min-width: 50%;  
+}
+.form .col1 > * {
+    flex: 1;
+}
+.container .btn{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.container .btn .sub-btn{
+    font-weight: 500; 
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid  aquamarine;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(216, 249, 238);
+}
+
+
